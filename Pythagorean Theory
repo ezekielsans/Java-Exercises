@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Pythagorean {
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter the measurement of the first side of the triangle:" );
+        int x = scan.nextInt();
+        System.out.print("Enter the measurement of the first side of the triangle:");
+        int y = scan.nextInt();
+        System.out.print("Enter the measurement of the first side of the triangle:");
+        int z = scan.nextInt();
+        int answer = 0;
+        answer = (x * x) + (y * y);
+        if (answer != z * z) {
+            System.out.println("It is not a right triangle");
+        } else {
+            System.out.println("It is a right triangle");
+        }
+
+
+    }
+}
